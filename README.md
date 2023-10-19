@@ -14,9 +14,9 @@ You may opt to download the JAR file or download the source code, to run the pro
 </p>
 
 ## Downloading the JAR File
-1. Make sure that Java is installed already (Must be Version 11 or up). You may download Java 11 [here](https://www.oracle.com/ph/java/technologies/javase-jdk11-downloads.html). No need to download JavaFX for running the JAR File.
-3. Download the JAR file at https://bit.ly/CSINTSY-TicTacToe
-4. After download is finished, you may run it by double-clicking the application. Treat it as an exe file.
+- Make sure that Java is installed already (Must be Version 11 or up). You may download Java 11 [here](https://www.oracle.com/ph/java/technologies/javase-jdk11-downloads.html). No need to download JavaFX for running the JAR File.
+1. Download the JAR file at https://bit.ly/CSINTSY-TicTacToe
+2. After download is finished, you may run it by double-clicking the application. Treat it as an exe file.
 
 ## Running the Source Code
 - This project was built using the IntelliJ IDEA. Instructions will be clearer if executed using that IDE. Nonetheless, It should be opened by any IDEs.
