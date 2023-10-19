@@ -8,16 +8,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import models.*;
 
-/**
- * The Main Controller of the whole game. This Controller is also responsible in creating a new TicTacToe game.
- * Every Controller is dependent to the leadership of the main controller. It contains the file locations and the
- * function changeScene where it allows the Stage to change scenes.
- * @author James Lemsic
- * @author Jordan Sibug
- * @version 1.0
- */
 public class MainController {
-
     /** The Title of the Game */
     public static final String TITLE = "TicTacToe by Lemsic & Sibug";
 

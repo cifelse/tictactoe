@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.net.URL;
 
 public class MainMenuController extends Controller{
-
     private final URL bgURL;
 
     private final URL sfxSelectURL;
@@ -76,7 +75,6 @@ public class MainMenuController extends Controller{
     private ImageView selectRandy;
 
     private void setPage(int index){
-
         switch (index){
             case 1:
                 boardID.setDisable(false);
@@ -319,7 +317,6 @@ public class MainMenuController extends Controller{
 
     @FXML
     public void initialize() {
-
         setPage(1);
 
         Media media = new Media(bgURL.toString());

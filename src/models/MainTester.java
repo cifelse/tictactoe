@@ -1,7 +1,6 @@
 package models;
 
 public class MainTester {
-
     private static TicTacToe game;
     private static int count;
 
@@ -20,7 +19,6 @@ public class MainTester {
     }
 
     public static void main (String[] args){
-
         count = 1;
         game = new TicTacToe(1); //1 means human first, 0 means computer first
                                       //change it nalang.
@@ -31,7 +29,6 @@ public class MainTester {
 
     //PLACE ALL MOVES HERE
     public static void runScript(){
-
         move(1,2); //<-- call move() nalang, no need to call getComputerMove()
         move(2,1);
         move(0,0);

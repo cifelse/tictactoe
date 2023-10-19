@@ -18,7 +18,6 @@ import java.io.IOException;
 import java.net.URL;
 
 public class BoardController extends Controller{
-
     private final URL resource;
     private final URL sfxSelectURL;
     private final URL sfxClickURL;
@@ -31,7 +30,6 @@ public class BoardController extends Controller{
     private final double millispeed;
 
     public BoardController (){
-
         resource = getClass().getResource("/views/resources/board_soundtrack.mp3");
         sfxSelectURL = getClass().getResource("/views/resources/select_soundtrack.mp3");
         sfxClickURL = getClass().getResource("/views/resources/click_soundtrack.mp3");
@@ -40,12 +38,10 @@ public class BoardController extends Controller{
     }
 
     private void getComputerMove(){
-
         block.setDisable(false);
         imageText1.setImage(new Image(getClass().getResourceAsStream("/views/resources/turn0.png")));
 
         if (!blank){
-
             Pair<Integer, Integer> moves = controller.getGame().getComputerMove();
 
             int x = moves.getKey();
@@ -124,7 +120,6 @@ public class BoardController extends Controller{
     }
 
     private boolean checkGameOver(){
-
         Pair<Boolean, Boolean> result = controller.getGame().isGameOver();
 
         if (result.getKey()){
@@ -262,7 +257,6 @@ public class BoardController extends Controller{
 
     @FXML
     private void startButtonAction(){
-
         enable();
 
         imageText3.setImage(new Image(getClass().getResourceAsStream("/views/resources/press.png")));
@@ -477,7 +471,6 @@ public class BoardController extends Controller{
 
     @FXML
     public void initialize(){
-
         Media media = new Media(resource.toString());
         MediaPlayer mediaPlayer = new MediaPlayer(media);
         mediaPlayer.setAutoPlay(true);

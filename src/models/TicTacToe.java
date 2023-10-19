@@ -7,7 +7,6 @@ import static java.lang.Math.max;
 import static java.lang.Math.min;
 
 public class TicTacToe {
-
     private int turn;
     private int rationalLevel;
     private char currentElement;

@@ -4,7 +4,7 @@ import controllers.MainController;
 
 /**
  * This class is just created to be the kicker of the program. It contains the public static void main and calls launch(args)
- * @author James Lemsic
+ * @author James Louis Lemsic
  * @author Jordan Sibug
  */
 public class Driver extends Application {
